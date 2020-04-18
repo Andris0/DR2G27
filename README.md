@@ -13,9 +13,9 @@ It can be enabled in the following file:\
 By setting udp value to:\
 `<udp enabled="true" extradata="3" ip="127.0.0.1" port="20777" delay="1" />`.
 
-### Download
-Executable can be found [here](https://github.com/Andris0/DR2G27/releases/download/v1.0.0/dr2g27.exe).
+### Download (Updated 18-04-2020)
+Executable can be found [here](https://github.com/Andris0/DR2G27/releases/download/v1.0.1/dr2g27.exe).
 
-Compiled with: `Rust 1.40.0`\
+Compiled with: `Rust 1.42.0`\
 For target: `x86_64-pc-windows-msvc`\
-MD5: `5280a4fe44337dc93ef4750ff0de9f40`
+MD5: `7c0be148577270a668ea5428c651e807`

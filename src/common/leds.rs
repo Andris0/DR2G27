@@ -35,7 +35,7 @@ impl LEDS {
     fn new_led_state(&self) -> u8 {
         let (rpm_current, rpm_max, rpm_idle) = self.rpm.state();
         match rpm_max - (rpm_max - rpm_idle) / 2_f32 {
-            range_start if rpm_current < range_start || range_start as u8 == 0 => 0,
+            range_start if rpm_current < range_start || range_start == 0.0 => 0,
             range_start => {
                 let active_range = rpm_max - range_start;
                 let current_in_range = rpm_current - range_start;
